@@ -1,4 +1,5 @@
 #pragma once
+#include "../math/vector3d.hpp"
 #include "../../utilities/checksum_crc/checksum_crc.hpp"
 
 enum cmd_buttons {

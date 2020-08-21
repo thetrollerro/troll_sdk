@@ -1,5 +1,4 @@
 #pragma once
-#include "../csgo.hpp"
 #include <vector>
 #include <cstdint>
 #include <string_view>

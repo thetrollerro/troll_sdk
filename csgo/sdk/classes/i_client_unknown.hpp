@@ -1,12 +1,11 @@
 #pragma once
-#include "../math/vector3d.hpp"
 #include "i_handle_entity.hpp"
-#include "i_client_entity.hpp"
-#include "entities.hpp"
 
 class c_base_entity;
 class i_client_entity;
 class i_client_thinkable;
+class i_client_renderable;
+class i_client_networkable;
 
 class i_client_unknown : public i_handle_entity
 {

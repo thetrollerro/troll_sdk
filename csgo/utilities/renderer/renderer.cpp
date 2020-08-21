@@ -1,5 +1,5 @@
 #include "renderer.hpp"
-
+#include "../../main.hpp"
 struct vtx_t {
 	float x, y, z, rhw;
 	std::uint32_t color;

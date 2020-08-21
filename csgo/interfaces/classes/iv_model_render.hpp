@@ -1,8 +1,8 @@
 #pragma once
-#include "../../sdk/structs/materials.hpp"
 #include "../../sdk/structs/models.hpp"
 
 struct ray_t;
+class i_material;
 class iv_model_render {
 public:
 	virtual int draw_model( int flags, void* renderable, unsigned short instance, int entity_index, const model_t* model, vec3_t const& origin, vec3_t const& angles, int skin, int body, int hitboxset, const matrix_t* modelToWorld = NULL, const matrix_t* pLightingOffset = NULL ) = 0;

@@ -1,5 +1,5 @@
 #include "math.hpp"
-#include "../utilities/csgo.hpp"
+#include "../main.hpp"
 
 void math::sin_cos( float rad, float* sine, float* cosine )
 {

@@ -1,5 +1,5 @@
 #include "interfaces.hpp"
-#include "../utilities/csgo.hpp"
+#include "../main.hpp"
 
 bool interfaces::initialize( ) {
 	client = get_interface<i_base_client_dll>( "client.dll", "VClient018", true );

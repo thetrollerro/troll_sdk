@@ -4,7 +4,6 @@
 #include <string>
 #include <vector>
 #include <Psapi.h>
-#include "csgo.hpp"
 #include "utilities.hpp"
 #define INRANGE(x,a,b)   (x >= a && x <= b)
 #define GET_BYTE( x )    (GET_BITS(x[0]) << 4 | GET_BITS(x[1]))

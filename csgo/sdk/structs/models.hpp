@@ -37,7 +37,9 @@ struct model_render_info_t {
 		lighting_origin = NULL;
 	}
 };
-
+struct studiohwdata_t;
+typedef void* studio_decal_handle_t;
+class i_client_renderable;
 struct draw_model_state_t {
 	studio_hdr_t* studio_hdr;
 	studiohwdata_t* studio_hwdara;
