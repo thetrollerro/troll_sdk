@@ -65,8 +65,6 @@ enum cstrike15_user_message_t {
 
 class i_base_client_dll {
 public:
-	~i_base_client_dll( ) = default;
-public:
 	virtual int connect( void* factory, c_global_vars_base * globals ) = 0;
 	virtual int disconnect( ) = 0;
 	virtual int init( void* factory, c_global_vars_base* globals ) = 0;

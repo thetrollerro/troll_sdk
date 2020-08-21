@@ -1,6 +1,5 @@
 #pragma once
 #include <cstdint>
-#include "../utilities/utilities.hpp"
 #include "../../utilities/utilities.hpp"
 
 class c_convar {
