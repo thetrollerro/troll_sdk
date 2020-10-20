@@ -15,7 +15,7 @@
 class c_base_entity;
 class c_base_combat_weapon;
 
-inline c_base_entity* g_local;
+inline c_base_entity* g_local = nullptr;
 
 class c_base_entity : public i_client_entity {
 private:
